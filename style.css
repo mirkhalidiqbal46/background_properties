@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Designing the header section */
+#header {
+    background-color: lightslategray;
+    width: 100vw;
+    height: 3.1rem;
+    box-shadow: inset 10px 15px 20px rgba(202, 21, 21, 0.3);
+
+}
+
+.navs {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#header .navs a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin: auto;
+
+}
+
+.navs a:hover {
+    background-color: rgb(95, 37, 48);
+    border-radius: 0.5rem;
+}
+
+/* Design of the banner area */
+
+.banner img {
+    width: 100vw;
+    height: calc(100vh - 3.1rem);
+}
+
+
+/* Design of the gallery section */
+
+#gallery {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #6baac4 0%, #8df183 99%, #fa6666 100%);
+}
+
+.card_images img {
+    width: 350px;
+    height: 400px;
+    padding: 1.2rem;
+}
+
+/* Design of the footer area */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1.5rem;
+}
+
+#footer p {
+    color: white;
+    padding: 4rem;
+}
+
+#footer img {
+    width: 450px;
+    height: 400px;
+}
